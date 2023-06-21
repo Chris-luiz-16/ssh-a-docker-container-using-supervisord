@@ -178,7 +178,7 @@ Once all prerequisites are read through, then it's time to build the image
 ```sh
 git clone https://github.com/Chris-luiz-16/ssh-a-docker-container-using-supervisord.git website
 cd website
-ssh-keygen -f chrisops -P -N
+ssh-keygen -f chrisops -P ""
 docker image build -t myimage:v1 .
 docker container run --name myctr -d -p 80:80 myimage:v1
 docker container ls -a
