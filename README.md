@@ -174,7 +174,7 @@ CMD ["-c","supervisor.conf"]
 ```
 ## Final output
 
-Once all prerequisites are read through, then it's time to build the image
+Once all prerequisites are read through, then you can test it directly by pasting the below snippet directly to the server. If you wish to change the username and private key files make sure you read the prerequisites
 ```sh
 git clone https://github.com/Chris-luiz-16/ssh-a-docker-container-using-supervisord.git website
 cd website
